@@ -27,7 +27,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.21.2",
     "cross-env": "^5.1",
-    "d3": "^3.5.17",
+    "d3": "^4.13.0",
     "del": "^2.2.0",
     "eslint": "^7.25.0",
     "eslint-plugin-vue": "^7.9.0",
