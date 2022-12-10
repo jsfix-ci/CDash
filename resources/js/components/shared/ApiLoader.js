@@ -1,5 +1,5 @@
 export default {
-	loadPageData: function (vm, endpoint_path) {
+ loadPageData: function (vm, endpoint_path) {
     vm.start = new Date().getTime();
     vm.$axios
       .get(endpoint_path)
@@ -31,5 +31,5 @@ export default {
         vm.errored = true
       })
       .finally(() => vm.loading = false)
-	},
+ },
 }
